@@ -18,16 +18,16 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5244780439').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/deactivated_2") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movierequesttbbo')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', 'https://t.me/tbbo_movies').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
@@ -47,12 +47,12 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/htdmtbb/15")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/htdmtbb/15")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/htdmtbb/15")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "a54e5bb9c8800261d15e4c9965e0eff5d6b7f3ab")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'api.gplinks.com')
+SHORTENER_API = environ.get("SHORTENER_API", "4927774c11791d1452636b76cd2c9dcc77c6bb69")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortxlinks.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "4927774c11791d1452636b76cd2c9dcc77c6bb69")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "f915a983316ac637091de9f17bc9367f24598cce")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkpays.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "4927774c11791d1452636b76cd2c9dcc77c6bb69")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -69,12 +69,12 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://images8.alphacoders.com/134/1348853.png')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
-REACTIONS = ["👀", "5044134455711629726", "5104841245755180586", "😍", "5046509860389126442", "🥰", "😇", "⚡"]
+PAYPICS = (environ.get('PAYPICS', 'https://i.ibb.co/TRB5QVj/Screenshot-20241014-134039.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://t3.ftcdn.net/jpg/02/96/32/68/360_F_296326887_KotJis18OWUFUCymqYTlAmn4kJRz9fnK.jpg'))
+REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
